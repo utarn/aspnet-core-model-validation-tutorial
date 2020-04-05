@@ -35,3 +35,7 @@ C:\projects\dotnet\model-validation-tutorial\obj\Debug\netcoreapp3.1\model-valid
 C:\projects\dotnet\model-validation-tutorial\obj\Debug\netcoreapp3.1\model-validation-tutorial.pdb
 C:\projects\dotnet\model-validation-tutorial\obj\Debug\netcoreapp3.1\model-validation-tutorial.genruntimeconfig.cache
 C:\projects\dotnet\model-validation-tutorial\obj\Debug\netcoreapp3.1\model-validation-tutorial.csproj.CopyComplete
+C:\projects\dotnet\model-validation-tutorial\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\projects\dotnet\model-validation-tutorial\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\projects\dotnet\model-validation-tutorial\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\projects\dotnet\model-validation-tutorial\obj\Debug\netcoreapp3.1\model-validation-tutorial.MvcApplicationPartsAssemblyInfo.cs

@@ -6,6 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="fluentvalidation" Version="8.6.2" />
+    <PackageReference Include="fluentvalidation.aspnetcore" Version="8.6.2" />
+  </ItemGroup>
+
 
 
 </Project>
