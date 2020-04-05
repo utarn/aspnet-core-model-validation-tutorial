@@ -1,0 +1,41 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Model Validation Demo</h1>
+    <p>Your current time is @ViewData["CurrentTime"]</p>
+</div>
+
+<div class="col-md-6">
+<form asp-action="Index" method="post">
+     <div class="form-group">
+           <label asp-for="Id"></label>
+            <input class="form-control" asp-for="Id" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+     </div>
+     <div class="form-group">
+           <label asp-for="FirstName"></label>
+            <input class="form-control" asp-for="FirstName" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+     </div>
+     <div class="form-group">
+           <label asp-for="LastName"></label>
+            <input class="form-control" asp-for="LastName" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+     </div>
+     <div class="form-group">
+           <label asp-for="Email"></label>
+            <input class="form-control" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+     </div>
+     <div class="form-group">
+           <label asp-for="DateOfBirth"></label>
+            <input class="form-control" asp-for="DateOfBirth" type="date" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+     </div>
+
+    <input type="submit" value="submit" class="btn btn-primary" />
+</form>
+</div>
